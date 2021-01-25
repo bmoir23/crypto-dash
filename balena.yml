@@ -22,7 +22,6 @@ data:
     - ACTIVITY_TIMEOUT: 600
     - LAUNCH_URL: "https://coinmarketcap.com/"
     - ROTATE_DISPLAY: normal
-    - WINDOW_SIZE: ""
     - WINDOW_POSITION: 0,0
     - LOCAL_HTTP_DELAY: 0
     - FBCP_DISPLAY: ""
