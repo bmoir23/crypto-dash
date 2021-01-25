@@ -13,6 +13,7 @@ The list of items you’ll need is also included below:
 ## Setup and configuration
 
 You can deploy this project to a new balenaCloud application in one click using the button below:
+
 [![](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/phil-d-wilson/crypto-dash)
 
 
