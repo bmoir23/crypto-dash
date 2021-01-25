@@ -1,36 +1,4 @@
-![balenaDash](https://www.balena.io/blog/content/images/2019/03/balenaDash_logo.png)
-
-Try our simple [balenaCloud](https://www.balena.io/cloud) starter project to set up a Raspberry Pi and LCD or monitor to display any webpage or web-based dashboard. We’re creatively calling it balenaDash! Follow along with our guide to get up and running in under 30 minutes.
-
-- [Introduction](#introduction)
-- [Hardware required](#hardware-required)
-- [Using WiFi Connect](#using-wifi-connect)
-- [Controlling content](#controlling-content)
-- [Automate backlight switching](#automate-backlight-switching)
-- [Photo slideshow feature](#photo-slideshow-feature)
-
-## Introduction
-
-This is the perfect introductory project to try out [balenaCloud](https://www.balena.io/cloud) and see how everything works.
-
-At the most basic level, this project allows you to display any webpage using a lightweight web browser. This means that you can build a device dedicated to showing anything that runs in a normal web browser. It will boot up and automatically start displaying your content.
-
-Some examples of what you could use this for include:
-
-- Data-centric dashboards using [Grafana](https://grafana.com/) or [Datadog](https://www.datadoghq.com/)
-- Display for services such as [Flightradar24](https://www.flightradar24.com/) or [Flightaware](https://flightaware.com/)
-- Digital [fishtank](http://www.fishgl.com/) or [jellyfish](https://arodic.github.io/p/jellyfish/)
-- Streaming webcam display
-- Digital signage for storefronts
-- 24 hour live [animated cat](http://www.nyan.cat/) display
-- [Home automation](https://www.home-assistant.io) dashboard
-
-Previously, balenaDash supported a photo gallery features such as: 
-
-- [Instagram](https://instagram.com) photo stream (based on hashtag or user)
-- Live digital photo frame feeding from [Google Photos](https://photos.google.com/) or Apple iCloud accounts
-
-We've removed that in version 1.0 and encourage people wanting this functionality to try our new [Photo Slideshow project](https://github.com/balenalabs-incubator/photo-slideshow), a project based on balenaDash.
+Track cryptocurrencies on a connected screen (piDisplay or a TV/monitory via HDMI) using this dashboard from https://coinmarketcap.com/
 
 ## Hardware required
 
@@ -38,19 +6,15 @@ The list of items you’ll need is also included below:
 
 - Raspberry Pi 3B/3B+ (**Note:** this project will not work with the Pi Zero or older devices with < 1GB RAM)
 - 16GB Micro-SD Card (we recommend Sandisk Extreme Pro SD cards)
-- Display (any Raspberry Pi display will work for this project)
+- Display (PiDisplay or a TV/Monitor via HDMI)
 - Micro-USB cable
 - Power supply
-- Case (optional)
-
-![](https://www.balena.io/blog/content/images/2018/11/image17.jpg)
 
 ## Setup and configuration
 
 You can deploy this project to a new balenaCloud application in one click using the button below:
-[![](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balenalabs/balena-dash)
+[![](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/phil-d-wilson/crypto-dash)
 
-Or, you can create an application in your balenaCloud dashboard and `balena push` this code to it the traditional way. Just be aware that balenaDash requires that you allocate more memory to the GPU. This is achieved by adding (or editing the existing) the **Device configuration variable** `BALENA_HOST_CONFIG_gpu_mem`, for this project we recommend setting it to `128`.
 
 ### Official Raspberry Pi 7-inch display
 

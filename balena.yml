@@ -1,26 +1,26 @@
 version: "2"
-slug: "balena-dash"
-name: "balenaDash"
+slug: "crypto-dash"
+name: "Cryptocurrency Dashboard"
 type: "sw.application"
 assets:
-  - url: "https://github.com/balenalabs/balena-dash"
+  - url: "https://github.com/phil-d-wilson/crypto-dash"
     name: "repository"
-  - url: "https://raw.githubusercontent.com/balenalabs/balena-dash/master/logo.png"
+  - url: "https://raw.githubusercontent.com/phil-d-wilson/crypto-dash/master/logo.png"
     name: "logo"
 data:
-  description: "Build a Raspberry Pi-based desktop dashboard for signage or dashboards remotely accessible from anywhere."
+  description: "Connect a raspberry pi to a TV or monitor and track cryptocurrencies"
   applicationConfigVariables:
     - BALENA_HOST_CONFIG_gpu_mem: 128
   applicationEnvironmentVariables:
     - SHOW_CURSOR: 0
     - CONTROL_TV: 0    
-    - ENABLE_GPU: 1   
+    - ENABLE_GPU: 0   
     - KIOSK: 1
     - PERSISTENT: 1
     - PORTAL_SSID: balenaDash
     - PORTAL_PASSPHRASE: balenaDash
     - ACTIVITY_TIMEOUT: 600
-    - LAUNCH_URL: ""
+    - LAUNCH_URL: "https://coinmarketcap.com/"
     - ROTATE_DISPLAY: normal
     - WINDOW_SIZE: ""
     - WINDOW_POSITION: 0,0
