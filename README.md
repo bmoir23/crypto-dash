@@ -4,7 +4,7 @@ Track cryptocurrencies on a connected screen (piDisplay or a TV/monitory via HDM
 
 The list of items you’ll need is also included below:
 
-- Raspberry Pi 3B/3B+ (**Note:** this project will not work with the Pi Zero or older devices with < 1GB RAM)
+- Raspberry Pi 3B/3B+, 4 or 400 (**Note:** this project will not work with the Pi Zero or older devices with < 1GB RAM)
 - 16GB Micro-SD Card (we recommend Sandisk Extreme Pro SD cards)
 - Display (PiDisplay or a TV/Monitor via HDMI)
 - Micro-USB cable
