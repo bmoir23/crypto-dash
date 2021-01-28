@@ -1,5 +1,7 @@
 Track cryptocurrencies on a connected screen (piDisplay or a TV/monitor via HDMI) using this dashboard from https://coinmarketcap.com/
 
+![dash](https://i.ibb.co/wQxrLzp/20210128-115828.jpg)
+
 ## Hardware required
 
 The list of items you’ll need is also included below:
