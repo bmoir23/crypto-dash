@@ -1,4 +1,4 @@
-Track cryptocurrencies on a connected screen (piDisplay or a TV/monitory via HDMI) using this dashboard from https://coinmarketcap.com/
+Track cryptocurrencies on a connected screen (piDisplay or a TV/monitor via HDMI) using this dashboard from https://coinmarketcap.com/
 
 ## Hardware required
 
