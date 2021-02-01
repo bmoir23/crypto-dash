@@ -1,14 +1,16 @@
-version: "2"
-slug: "crypto-dash"
 name: "Cryptocurrency Dashboard"
+description: "Connect a raspberry pi to a TV or monitor and track cryptocurrencies"
 type: "sw.application"
 assets:
-  - url: "https://github.com/phil-d-wilson/crypto-dash"
-    name: "repository"
-  - url: "https://raw.githubusercontent.com/phil-d-wilson/crypto-dash/master/logo.png"
-    name: "logo"
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/phil-d-wilson/crypto-dash"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/phil-d-wilson/crypto-dash/master/logo.png"
 data:
-  description: "Connect a raspberry pi to a TV or monitor and track cryptocurrencies"
   applicationConfigVariables:
     - BALENA_HOST_CONFIG_gpu_mem: 128
   applicationEnvironmentVariables:
